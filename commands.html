@@ -269,7 +269,7 @@ echo "Latest authentication attempt: $latestAuth"</samp>
     <var>name</var> <strong>()</strong> <var>compound-command</var> [ <var>redirection</var> ]
 
 <samp>exists() { [[ -x $(type -P "$1" 2&gt;/dev/null) ]]; }
-exists gpg || echo "Please install GPG." &lt;&amp;2</samp>
+exists gpg || echo "Please install GPG." &gt;&amp;2</samp>
 </pre>
 
             <p>You begin by specifying a <code>name</code> for your function.  This is the name of your new command, you'll be able to run it later on by writing a simple command with that name.</p>
